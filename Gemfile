@@ -19,7 +19,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 #add rspec
 group :development do
-  gem 'rspec-rails', '2.13.1'
+#  gem 'rspec-rails', '2.13.1'
+  gem "rspec-rails", '~> 2.14.0.rc1'
   gem 'minitest'
 end
 
